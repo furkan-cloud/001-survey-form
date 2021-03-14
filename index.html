@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="title"><h1 id="title1">Net</h1><h1 id="title2">Flix</h1></div>
+        <h3 id="description">Thank you for signing up at Netflix. Tell us more about your self</h3>
+        <form id="survey-form" action="">
+            <div class="box">
+                <p id="1">Name</p><br><input class="input" type="text" placeholder="enter your name"><br>
+            </div>
+            <div class="box">
+                <p id="2">Age</p><br><input class="input" type="number" placeholder="age"><br>
+            </div>
+            <div class="box">
+                <label id="mail" for="Email">Email</label><br><br>
+                <input class="input" type="text" placeholder="enter your Email"><br>
+            </div>
+            <div class="box">
+                <label for="content">Content Type</label><br><br>
+                <select name="content" id="content">
+                    <option value="movie">Movie</option>
+                    <option value="series">Series</option>
+                </select>
+            </div>
+            <div class="div">
+                Movie type<br>
+                <input type="checkbox" name="Movie Type"> Comedy<br>
+                <input type="checkbox" name="Movie Type"> Action<br>
+                <input type="checkbox" name="Movie Type" checked> Romance<br>
+            </div><br>
+            <div class="div">
+                Gender<br>
+                <input type="radio" name="Gender" checked>Male<br>
+                <input type="radio" name="Gender">Female<br>
+                <input type="radio" name="Gender">Other<br>
+            </div><br>
+            <div class="div">
+                Feed Back<br><Textarea style="resize: none;" cols="54" rows="7">any comment</Textarea><br>
+            </div>
+            <div class="submit">
+                <input id="submit" type="submit"value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
